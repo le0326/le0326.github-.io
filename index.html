@@ -1,0 +1,50 @@
+<style>
+.modal-2026 {
+  position: fixed;
+  top: 0;left: 0;right: 0;bottom: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.wish-card {
+  width: 320px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  text-align: center;
+  border: 3px solid #ffd700;
+}
+.wish-card h3 {
+  color: #ff9a00;
+  margin: 0 0 10px;
+}
+.wish-card p {
+  color: #333;
+  line-height: 1.6;
+}
+.close-btn {
+  margin-top: 15px;
+  padding: 6px 18px;
+  border: none;
+  background: #ffd700;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+</style>
+
+<div class="modal-2026" id="newYearModal">
+  <div class="wish-card">
+    <h3><span class="emoji emoji2747"></span>2026新年大吉<span class="emoji emoji2747"></span></h3>
+    <p>辞旧迎新，喜乐常伴
+
+       万事兴，无灾无难
+
+       财源茂，步步登高
+
+       新岁，平安喜乐，万事胜意！</p >
+    <button class="close-btn" onclick="document.getElementById('newYearModal').style.display='none'">关闭</button>
+ </div>
+</div>
